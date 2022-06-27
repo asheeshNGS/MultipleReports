@@ -285,7 +285,9 @@ report 50132 "SO Confirm"
                         Email := cust."E-Mail";
                     end;
 
+                    // find the value of tatal tax
                     TotalTax := "Amount Including VAT" - Amount;
+
 
 
                 end;
